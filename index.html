@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!-- SEO Primary Meta Tags -->
   <title>NASA Space Apps Challenge 2026 Brasil • O Maior Hackathon Global</title>
   <meta name="title" content="NASA Space Apps Challenge 2026 Brasil • O Maior Hackathon Global">
-  <meta name="description" content="Guia completo em português sobre o NASA Space Apps Challenge 2026: conheça os 14 desafios oficiais, encontre eventos locais no Brasil e aprenda como participar gratuitamente.">
-  <meta name="keywords" content="NASA Space Apps Challenge 2026, Hackathon NASA Brasil, Desafios NASA 2026, Eventos Locais Brasil NASA, Como participar NASA Space Apps, Ciência Espacial, Hackathon gratuito">
+  <meta name="description"
+    content="Guia completo em português sobre o NASA Space Apps Challenge 2026: conheça os 14 desafios oficiais, encontre eventos locais no Brasil e aprenda como participar gratuitamente.">
+  <meta name="keywords"
+    content="NASA Space Apps Challenge 2026, Hackathon NASA Brasil, Desafios NASA 2026, Eventos Locais Brasil NASA, Como participar NASA Space Apps, Ciência Espacial, Hackathon gratuito">
   <meta name="author" content="Comunidade NASA Space Apps Brasil">
   <meta name="robots" content="index, follow">
 
@@ -16,24 +19,30 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tiovene.github.io/nasa-spaceapps/">
   <meta property="og:title" content="NASA Space Apps Challenge 2026 Brasil • Guia & Localizador de Eventos">
-  <meta property="og:description" content="Explore a edição 2026 do maior hackathon do mundo. Veja os 14 desafios oficiais e encontre polos locais e virtuais em todo o Brasil.">
+  <meta property="og:description"
+    content="Explore a edição 2026 do maior hackathon do mundo. Veja os 14 desafios oficiais e encontre polos locais e virtuais em todo o Brasil.">
   <meta property="og:image" content="assets/hero-banner.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:title" content="NASA Space Apps Challenge 2026 Brasil • Guia & Eventos">
-  <meta property="twitter:description" content="Guia definitivo em português para estudantes e inovadores participarem do NASA Space Apps 2026 no Brasil.">
+  <meta property="twitter:description"
+    content="Guia definitivo em português para estudantes e inovadores participarem do NASA Space Apps 2026 no Brasil.">
   <meta property="twitter:image" content="assets/hero-banner.jpg">
 
-  <link rel="icon" href="https://assets.spaceappschallenge.org/media/images/favicon2x.2e16d0ba.fill-192x192.png" type="image/png">
-  
+  <link rel="icon" href="https://assets.spaceappschallenge.org/media/images/favicon2x.2e16d0ba.fill-192x192.png"
+    type="image/png">
+
   <!-- Google Fonts: Space Grotesk & Outfit -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <!-- Canvas de Estrelas Animadas -->
   <canvas id="space-canvas" aria-hidden="true"></canvas>
@@ -63,9 +72,13 @@
       </nav>
 
       <div class="header-actions">
-        <a href="https://www.spaceappschallenge.org/2026/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btn-header-register">
+        <a href="https://www.spaceappschallenge.org/2026/" target="_blank" rel="noopener noreferrer"
+          class="btn btn-primary" id="btn-header-register">
           <span>Inscrever-se na NASA</span>
-          <svg class="icon-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          <svg class="icon-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
         </a>
         <button class="mobile-toggle" id="btn-mobile-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
           <span class="bar"></span>
@@ -86,7 +99,8 @@
       <a href="#como-participar" class="mobile-nav-link">Passo a Passo de Inscrição</a>
       <a href="#premios" class="mobile-nav-link">10 Prêmios Globais</a>
       <a href="#faq" class="mobile-nav-link">Dúvidas Frequentes (FAQ)</a>
-      <a href="https://www.spaceappschallenge.org/2026/" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full">Inscrição Oficial NASA</a>
+      <a href="https://www.spaceappschallenge.org/2026/" target="_blank" rel="noopener noreferrer"
+        class="btn btn-primary w-full">Inscrição Oficial NASA</a>
     </nav>
   </div>
 
@@ -95,7 +109,7 @@
     <section class="hero-section" id="hero">
       <div class="glow-orb orb-1"></div>
       <div class="glow-orb orb-2"></div>
-      
+
       <div class="container hero-content">
         <div class="hero-badges">
           <span class="pill pill-nasa">
@@ -110,7 +124,9 @@
         </h1>
 
         <p class="hero-description">
-          O maior hackathon global do planeta está de volta! Junte-se a estudantes, programadores, designers, cientistas e sonhadores de todo o Brasil para solucionar desafios reais usando <strong>dados abertos da NASA</strong> e agências parceiras.
+          O maior hackathon global do planeta está de volta! Junte-se a estudantes, programadores, designers, cientistas
+          e sonhadores de todo o Brasil para solucionar desafios reais usando <strong>dados abertos da NASA</strong> e
+          agências parceiras.
         </p>
 
         <!-- Contador Regressivo ao Vivo -->
@@ -145,14 +161,22 @@
         <div class="hero-cta-group">
           <a href="#eventos-brasil" class="btn btn-hero-primary" id="btn-hero-find-brasil">
             <span>🇧🇷 Encontrar Eventos no Brasil</span>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
           </a>
           <a href="#desafios" class="btn btn-hero-secondary" id="btn-hero-explore-challenges">
             <span>🎯 Explorar os 14 Desafios</span>
           </a>
-          <a href="https://www.spaceappschallenge.org/2026/" target="_blank" rel="noopener noreferrer" class="btn btn-hero-ghost" id="btn-hero-official-site">
+          <a href="https://www.spaceappschallenge.org/2026/" target="_blank" rel="noopener noreferrer"
+            class="btn btn-hero-ghost" id="btn-hero-official-site">
             <span>Portal Oficial da NASA</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
           </a>
         </div>
 
@@ -186,7 +210,8 @@
         <div class="section-badge">DESCUBRA O MAIOR HACKATHON DO MUNDO</div>
         <h2 class="section-title">O Que É o NASA Space Apps Challenge?</h2>
         <p class="section-subtitle">
-          Criado em 2012 pela <strong>Science Mission Directorate da NASA</strong>, o Space Apps é uma incubadora global de inovação aberta que transforma paixão por ciência em impacto tangível.
+          Criado em 2012 pela <strong>Science Mission Directorate da NASA</strong>, o Space Apps é uma incubadora global
+          de inovação aberta que transforma paixão por ciência em impacto tangível.
         </p>
 
         <div class="cards-grid-3">
@@ -194,7 +219,9 @@
             <div class="feature-icon">✨</div>
             <h3 class="feature-title">Não Precisa Saber Programar</h3>
             <p class="feature-desc">
-              O hackathon é aberto para todos os perfis: estudantes de qualquer idade e série, designers, ilustradores, comunicadores, cientistas, biólogos e entusiastas espaciais. Ideias e criatividade contam tanto quanto código!
+              O hackathon é aberto para todos os perfis: estudantes de qualquer idade e série, designers, ilustradores,
+              comunicadores, cientistas, biólogos e entusiastas espaciais. Ideias e criatividade contam tanto quanto
+              código!
             </p>
           </div>
 
@@ -202,7 +229,8 @@
             <div class="feature-icon">🛰️</div>
             <h3 class="feature-title">Dados Abertos e Reais da NASA</h3>
             <p class="feature-desc">
-              Tenha acesso direto a dados de satélites (Hubble, James Webb, Landsat, NISAR), telemetria de missões planetárias, modelos climáticos globais e APIs científicas de agências do mundo todo.
+              Tenha acesso direto a dados de satélites (Hubble, James Webb, Landsat, NISAR), telemetria de missões
+              planetárias, modelos climáticos globais e APIs científicas de agências do mundo todo.
             </p>
           </div>
 
@@ -210,7 +238,8 @@
             <div class="feature-icon">🤝</div>
             <h3 class="feature-title">Equipes de 1 a 6 Pessoas</h3>
             <p class="feature-desc">
-              Participe individualmente ou forme um time multidisciplinar de até 6 integrantes com amigos ou colegas que você conhecerá na comunidade local da sua cidade.
+              Participe individualmente ou forme um time multidisciplinar de até 6 integrantes com amigos ou colegas que
+              você conhecerá na comunidade local da sua cidade.
             </p>
           </div>
 
@@ -218,7 +247,8 @@
             <div class="feature-icon">🇧🇷</div>
             <h3 class="feature-title">Força do Brasil na Competição</h3>
             <p class="feature-desc">
-              O Brasil é líder em participações na América Latina, acumulando vitórias globais e menções honrosas. Contamos com apoio da comunidade local, universidades e agências parceiras.
+              O Brasil é líder em participações na América Latina, acumulando vitórias globais e menções honrosas.
+              Contamos com apoio da comunidade local, universidades e agências parceiras.
             </p>
           </div>
 
@@ -226,7 +256,8 @@
             <div class="feature-icon">🏆</div>
             <h3 class="feature-title">Reconhecimento Global da NASA</h3>
             <p class="feature-desc">
-              Os projetos vencedores locais concorrem aos <strong>10 Global Awards</strong> avaliados por cientistas da própria NASA, recebendo certificado oficial e convite para a cerimônia nos EUA.
+              Os projetos vencedores locais concorrem aos <strong>10 Global Awards</strong> avaliados por cientistas da
+              própria NASA, recebendo certificado oficial e convite para a cerimônia nos EUA.
             </p>
           </div>
 
@@ -234,7 +265,8 @@
             <div class="feature-icon">💡</div>
             <h3 class="feature-title">100% Gratuito & Certificado</h3>
             <p class="feature-desc">
-              A inscrição não possui taxa alguma. Todos os participantes que submeterem seus projetos dentro do prazo oficial recebem um certificado de participação assinado pela NASA.
+              A inscrição não possui taxa alguma. Todos os participantes que submeterem seus projetos dentro do prazo
+              oficial recebem um certificado de participação assinado pela NASA.
             </p>
           </div>
         </div>
@@ -249,7 +281,9 @@
             <div class="section-badge badge-orange">EDIÇÃO 2026 • THE NEXT FRONTIER</div>
             <h2 class="edition-title">A Próxima Fronteira da Inovação Espacial</h2>
             <p class="edition-text">
-              Em 2026, a humanidade expande os limites da exploração com o programa Artemis, novas missões lunares comerciais (CLPS), telescópios de nova geração e tecnologias de observação da Terra para mitigar mudanças climáticas.
+              Em 2026, a humanidade expande os limites da exploração com o programa Artemis, novas missões lunares
+              comerciais (CLPS), telescópios de nova geração e tecnologias de observação da Terra para mitigar mudanças
+              climáticas.
             </p>
 
             <div class="timeline-container">
@@ -258,7 +292,8 @@
                 <div class="step-content">
                   <span class="step-date">Agosto / Setembro 2026</span>
                   <h4 class="step-title">Inscrições Abertas & Desafios Revelados</h4>
-                  <p class="step-desc">Abertura oficial do registro de participantes e divulgação dos 14 desafios detalhados.</p>
+                  <p class="step-desc">Abertura oficial do registro de participantes e divulgação dos 14 desafios
+                    detalhados.</p>
                 </div>
               </div>
 
@@ -267,7 +302,8 @@
                 <div class="step-content">
                   <span class="step-date">14 e 15 de Novembro de 2026</span>
                   <h4 class="step-title">Fim de Semana do Hackathon Global</h4>
-                  <p class="step-desc">48 horas ininterruptas de desenvolvimento, mentorias locais e colaboração em equipe.</p>
+                  <p class="step-desc">48 horas ininterruptas de desenvolvimento, mentorias locais e colaboração em
+                    equipe.</p>
                 </div>
               </div>
 
@@ -276,7 +312,8 @@
                 <div class="step-content">
                   <span class="step-date">Novembro / Dezembro 2026</span>
                   <h4 class="step-title">Avaliação Local & Global Nominees</h4>
-                  <p class="step-desc">Bancas de jurados nas cidades brasileiras elegem os representantes que avançam para a fase mundial.</p>
+                  <p class="step-desc">Bancas de jurados nas cidades brasileiras elegem os representantes que avançam
+                    para a fase mundial.</p>
                 </div>
               </div>
 
@@ -293,7 +330,8 @@
 
           <div class="edition-card-media">
             <div class="media-frame">
-              <img src="assets/hero-banner.jpg" alt="Ilustração do Hackathon Espacial 2026" class="edition-img" loading="lazy">
+              <img src="assets/hero-banner.jpg" alt="Ilustração do Hackathon Espacial 2026" class="edition-img"
+                loading="lazy">
               <div class="media-overlay">
                 <span class="media-tag">NASA Science Mission Directorate</span>
                 <span class="media-caption">Conectando dados do espaço com soluções na Terra</span>
@@ -310,15 +348,22 @@
         <div class="section-badge">DESAFIOS OFICIAIS DE 2026</div>
         <h2 class="section-title">Escolha Seu Desafio no Space Apps</h2>
         <p class="section-subtitle">
-          Em 2026, a NASA disponibiliza <strong>14 desafios temáticos</strong>. Sua equipe escolherá um deles para trabalhar durante o evento. Filtre por dificuldade ou categoria para encontrar o seu match perfeito!
+          Em 2026, a NASA disponibiliza <strong>14 desafios temáticos</strong>. Sua equipe escolherá um deles para
+          trabalhar durante o evento. Filtre por dificuldade ou categoria para encontrar o seu match perfeito!
         </p>
 
         <!-- Filtros dos Desafios -->
         <div class="filters-container">
           <div class="search-box">
-            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            <input type="text" id="challenge-search" placeholder="Buscar desafio por título, tema ou tecnologia..." aria-label="Buscar desafio">
-            <button class="clear-search-btn" id="clear-challenge-search" style="display:none;" aria-label="Limpar busca">×</button>
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <input type="text" id="challenge-search" placeholder="Buscar desafio por título, tema ou tecnologia..."
+              aria-label="Buscar desafio">
+            <button class="clear-search-btn" id="clear-challenge-search" style="display:none;"
+              aria-label="Limpar busca">×</button>
           </div>
 
           <div class="filter-groups">
@@ -348,7 +393,8 @@
 
         <div class="results-header">
           <span class="results-counter" id="challenges-count">Mostrando 14 de 14 desafios</span>
-          <a href="https://www.spaceappschallenge.org/2026/challenges/" target="_blank" rel="noopener noreferrer" class="link-external">
+          <a href="https://www.spaceappschallenge.org/2026/challenges/" target="_blank" rel="noopener noreferrer"
+            class="link-external">
             Ver página oficial na NASA ↗
           </a>
         </div>
@@ -367,7 +413,9 @@
           <div class="section-badge badge-green">LOCALIZADOR DE EVENTOS • BRASIL 🇧🇷</div>
           <h2 class="section-title">Encontre Seu Evento Local no Brasil</h2>
           <p class="section-subtitle">
-            O estudante brasileiro pode participar de duas maneiras: escolhendo uma <strong>cidade presencial/híbrida</strong> próxima para viver a experiência nos polos de inovação, ou se registrando no <strong>Evento Universal Brasil</strong> para competir 100% online de qualquer lugar do país!
+            O estudante brasileiro pode participar de duas maneiras: escolhendo uma <strong>cidade
+              presencial/híbrida</strong> próxima para viver a experiência nos polos de inovação, ou se registrando no
+            <strong>Evento Universal Brasil</strong> para competir 100% online de qualquer lugar do país!
           </p>
         </div>
 
@@ -377,10 +425,13 @@
           <div class="alert-content">
             <h4 class="alert-title">Sua cidade não está na lista presencial? Não tem problema!</h4>
             <p class="alert-desc">
-              Você pode participar pelo <strong>Evento Universal Brasil (100% Online)</strong>. O evento virtual oferece acesso a todas as mentorias, submissão idêntica e você concorre exatamente às mesmas premiações globais da NASA!
+              Você pode participar pelo <strong>Evento Universal Brasil (100% Online)</strong>. O evento virtual oferece
+              acesso a todas as mentorias, submissão idêntica e você concorre exatamente às mesmas premiações globais da
+              NASA!
             </p>
           </div>
-          <a href="https://www.spaceappschallenge.org/2026/local-events/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-white">
+          <a href="https://www.spaceappschallenge.org/2026/local-events/" target="_blank" rel="noopener noreferrer"
+            class="btn btn-outline-white">
             Inscrever no Universal
           </a>
         </div>
@@ -388,9 +439,16 @@
         <!-- Filtros dos Eventos Brasileiros -->
         <div class="events-filter-bar">
           <div class="search-box">
-            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            <input type="text" id="event-search" placeholder="Filtrar por cidade (ex: Campinas, Belo Horizonte, Fortaleza, Brasília)..." aria-label="Filtrar evento por cidade ou estado">
-            <button class="clear-search-btn" id="clear-event-search" style="display:none;" aria-label="Limpar busca">×</button>
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <input type="text" id="event-search"
+              placeholder="Filtrar por cidade (ex: Campinas, Belo Horizonte, Fortaleza, Brasília)..."
+              aria-label="Filtrar evento por cidade ou estado">
+            <button class="clear-search-btn" id="clear-event-search" style="display:none;"
+              aria-label="Limpar busca">×</button>
           </div>
 
           <div class="event-filter-controls">
@@ -421,7 +479,8 @@
 
         <div class="results-header">
           <span class="results-counter" id="events-count">Mostrando 16 polos disponíveis no Brasil</span>
-          <a href="https://www.spaceappschallenge.org/2026/local-events/" target="_blank" rel="noopener noreferrer" class="link-external">
+          <a href="https://www.spaceappschallenge.org/2026/local-events/" target="_blank" rel="noopener noreferrer"
+            class="link-external">
             Abrir mapa global de eventos ↗
           </a>
         </div>
@@ -439,7 +498,8 @@
         <div class="section-badge">GUIA DO ESTUDANTE</div>
         <h2 class="section-title">Como Participar: Passo a Passo</h2>
         <p class="section-subtitle">
-          Tudo o que você precisa saber para se inscrever e submeter seu projeto com sucesso no NASA Space Apps Challenge 2026.
+          Tudo o que você precisa saber para se inscrever e submeter seu projeto com sucesso no NASA Space Apps
+          Challenge 2026.
         </p>
 
         <div class="steps-grid">
@@ -447,7 +507,9 @@
             <div class="step-number">01</div>
             <h3 class="step-heading">Crie sua Conta Gratuita</h3>
             <p class="step-text">
-              Acesse o site oficial <a href="https://www.spaceappschallenge.org/" target="_blank" rel="noopener noreferrer">spaceappschallenge.org</a> e clique em <strong>Sign Up</strong>. Use um e-mail válido para receber avisos e atualizações das missões.
+              Acesse o site oficial <a href="https://www.spaceappschallenge.org/" target="_blank"
+                rel="noopener noreferrer">spaceappschallenge.org</a> e clique em <strong>Sign Up</strong>. Use um e-mail
+              válido para receber avisos e atualizações das missões.
             </p>
           </div>
 
@@ -455,7 +517,8 @@
             <div class="step-number">02</div>
             <h3 class="step-heading">Escolha seu Evento no Brasil</h3>
             <p class="step-text">
-              Na aba <strong>Local Events</strong>, pesquise pela sua cidade no Brasil (ou selecione o Evento Universal se sua cidade não tiver polo físico) e clique em <strong>Register for this Event</strong>.
+              Na aba <strong>Local Events</strong>, pesquise pela sua cidade no Brasil (ou selecione o Evento Universal
+              se sua cidade não tiver polo físico) e clique em <strong>Register for this Event</strong>.
             </p>
           </div>
 
@@ -463,7 +526,8 @@
             <div class="step-number">03</div>
             <h3 class="step-heading">Monte ou Entre em uma Equipe</h3>
             <p class="step-text">
-              As equipes são compostas por <strong>1 a 6 integrantes</strong>. Você pode convidar colegas de escola/faculdade ou usar a ferramenta <em>Find a Team</em> no portal para se unir a outros participantes.
+              As equipes são compostas por <strong>1 a 6 integrantes</strong>. Você pode convidar colegas de
+              escola/faculdade ou usar a ferramenta <em>Find a Team</em> no portal para se unir a outros participantes.
             </p>
           </div>
 
@@ -471,7 +535,8 @@
             <div class="step-number">04</div>
             <h3 class="step-heading">Escolha 1 dos 14 Desafios</h3>
             <p class="step-text">
-              Navegue pelos desafios de 2026, leia as orientações e acesse os links de dados públicos fornecidos pela NASA e agências parceiras como apoio para sua solução.
+              Navegue pelos desafios de 2026, leia as orientações e acesse os links de dados públicos fornecidos pela
+              NASA e agências parceiras como apoio para sua solução.
             </p>
           </div>
 
@@ -479,7 +544,8 @@
             <div class="step-number">05</div>
             <h3 class="step-heading">Hackathon (14-15 Nov 2026)</h3>
             <p class="step-text">
-              Durante as 48 horas, crie sua solução: protótipo de software, maquete virtual, jogo educativo, arte interativa, dashboard ou modelo de dados. Mentores estarão disponíveis para tirar dúvidas!
+              Durante as 48 horas, crie sua solução: protótipo de software, maquete virtual, jogo educativo, arte
+              interativa, dashboard ou modelo de dados. Mentores estarão disponíveis para tirar dúvidas!
             </p>
           </div>
 
@@ -487,7 +553,8 @@
             <div class="step-number">06</div>
             <h3 class="step-heading">Submeta o Projeto na Plataforma</h3>
             <p class="step-text">
-              Cadastre a página do seu time na plataforma oficial com: descrição da solução, referência aos dados da NASA utilizados, link do repositório/demo e apresentação de 7 slides ou pitch de 30 segundos.
+              Cadastre a página do seu time na plataforma oficial com: descrição da solução, referência aos dados da
+              NASA utilizados, link do repositório/demo e apresentação de 7 slides ou pitch de 30 segundos.
             </p>
           </div>
         </div>
@@ -500,68 +567,79 @@
         <div class="section-badge badge-yellow">PREMIAÇÃO MUNDIAL</div>
         <h2 class="section-title">Os 10 Prêmios Globais da NASA</h2>
         <p class="section-subtitle">
-          Cada cidade indica os seus melhores projetos (Global Nominees). Uma banca internacional de cientistas e diretores da NASA avalia e premia as soluções nas seguintes categorias:
+          Cada cidade indica os seus melhores projetos (Global Nominees). Uma banca internacional de cientistas e
+          diretores da NASA avalia e premia as soluções nas seguintes categorias:
         </p>
 
         <div class="awards-grid">
           <div class="award-card">
             <div class="award-badge">🔬</div>
             <h4 class="award-name">Best Use of Science</h4>
-            <p class="award-desc">A solução que faz o uso mais válido, rigoroso e inovador de conceitos científicos comprovados.</p>
+            <p class="award-desc">A solução que faz o uso mais válido, rigoroso e inovador de conceitos científicos
+              comprovados.</p>
           </div>
 
           <div class="award-card">
             <div class="award-badge">📊</div>
             <h4 class="award-name">Best Use of Data</h4>
-            <p class="award-desc">A solução que melhor integra, processa e torna acessíveis os dados públicos e abertos da NASA.</p>
+            <p class="award-desc">A solução que melhor integra, processa e torna acessíveis os dados públicos e abertos
+              da NASA.</p>
           </div>
 
           <div class="award-card">
             <div class="award-badge">💻</div>
             <h4 class="award-name">Best Use of Technology</h4>
-            <p class="award-desc">A aplicação com a tecnologia mais inovadora, arquitetura sólida e código de excelência.</p>
+            <p class="award-desc">A aplicação com a tecnologia mais inovadora, arquitetura sólida e código de
+              excelência.</p>
           </div>
 
           <div class="award-card">
             <div class="award-badge">🌌</div>
             <h4 class="award-name">Galactic Impact</h4>
-            <p class="award-desc">A solução com o maior potencial transformador de melhorar vidas na Terra ou desbravar o espaço.</p>
+            <p class="award-desc">A solução com o maior potencial transformador de melhorar vidas na Terra ou desbravar
+              o espaço.</p>
           </div>
 
           <div class="award-card">
             <div class="award-badge">✨</div>
             <h4 class="award-name">Most Inspirational</h4>
-            <p class="award-desc">O projeto que mais cativa a imaginação humana e inspira novas gerações a olharem para as estrelas.</p>
+            <p class="award-desc">O projeto que mais cativa a imaginação humana e inspira novas gerações a olharem para
+              as estrelas.</p>
           </div>
 
           <div class="award-card">
             <div class="award-badge">🚀</div>
             <h4 class="award-name">Best Mission Concept</h4>
-            <p class="award-desc">O conceito de missão espacial mais estruturado, realista e com potencial de viabilidade técnica.</p>
+            <p class="award-desc">O conceito de missão espacial mais estruturado, realista e com potencial de
+              viabilidade técnica.</p>
           </div>
 
           <div class="award-card">
             <div class="award-badge">🏡</div>
             <h4 class="award-name">Local Impact</h4>
-            <p class="award-desc">O projeto que melhor resolve ou mitiga um problema crítico e direto para uma comunidade local.</p>
+            <p class="award-desc">O projeto que melhor resolve ou mitiga um problema crítico e direto para uma
+              comunidade local.</p>
           </div>
 
           <div class="award-card">
             <div class="award-badge">📖</div>
             <h4 class="award-name">Best Storytelling</h4>
-            <p class="award-desc">A melhor narrativa, comunicação científica clara e capacidade de envolver o público na história.</p>
+            <p class="award-desc">A melhor narrativa, comunicação científica clara e capacidade de envolver o público na
+              história.</p>
           </div>
 
           <div class="award-card">
             <div class="award-badge">🎨</div>
             <h4 class="award-name">Art & Technology</h4>
-            <p class="award-desc">A fusão mais harmônica e encantadora entre expressão artística e precisão tecnológica/espacial.</p>
+            <p class="award-desc">A fusão mais harmônica e encantadora entre expressão artística e precisão
+              tecnológica/espacial.</p>
           </div>
 
           <div class="award-card">
             <div class="award-badge">🌍</div>
             <h4 class="award-name">Global Connection</h4>
-            <p class="award-desc">A solução que conecta pessoas, saberes, culturas e ecossistemas de diferentes cantos do planeta.</p>
+            <p class="award-desc">A solução que conecta pessoas, saberes, culturas e ecossistemas de diferentes cantos
+              do planeta.</p>
           </div>
         </div>
       </div>
@@ -583,7 +661,8 @@
               <span class="faq-chevron">+</span>
             </button>
             <div class="faq-answer">
-              <p>Não! A participação no NASA Space Apps Challenge é <strong>100% gratuita</strong> no mundo todo. Nunca pague nenhuma taxa para se inscrever ou submeter projetos.</p>
+              <p>Não! A participação no NASA Space Apps Challenge é <strong>100% gratuita</strong> no mundo todo. Nunca
+                pague nenhuma taxa para se inscrever ou submeter projetos.</p>
             </div>
           </div>
 
@@ -593,7 +672,9 @@
               <span class="faq-chevron">+</span>
             </button>
             <div class="faq-answer">
-              <p>Definitivamente não! As equipes de maior sucesso são formadas por pessoas com habilidades diversas: redação, design, biologia, pedagogia, geografia, gestão, ilustração e programação. Há desafios puramente voltados para jogos, histórias, arte e propostas conceituais.</p>
+              <p>Definitivamente não! As equipes de maior sucesso são formadas por pessoas com habilidades diversas:
+                redação, design, biologia, pedagogia, geografia, gestão, ilustração e programação. Há desafios puramente
+                voltados para jogos, histórias, arte e propostas conceituais.</p>
             </div>
           </div>
 
@@ -603,7 +684,9 @@
               <span class="faq-chevron">+</span>
             </button>
             <div class="faq-answer">
-              <p>Você pode se inscrever no <strong>Evento Universal (Virtual)</strong> no portal da NASA. Todos os inscritos no evento universal têm acesso aos mesmos canais de mentoria online, submissão oficial e concorrem aos prêmios globais exatamente nas mesmas condições.</p>
+              <p>Você pode se inscrever no <strong>Evento Universal (Virtual)</strong> no portal da NASA. Todos os
+                inscritos no evento universal têm acesso aos mesmos canais de mentoria online, submissão oficial e
+                concorrem aos prêmios globais exatamente nas mesmas condições.</p>
             </div>
           </div>
 
@@ -613,7 +696,9 @@
               <span class="faq-chevron">+</span>
             </button>
             <div class="faq-answer">
-              <p>Sim! O NASA Space Apps acolhe participantes de todas as idades, desde o ensino fundamental até pós-graduação. Menores de 13 anos devem ter a conta supervisionada por um pai, responsável ou professor, conforme as diretrizes do portal da NASA.</p>
+              <p>Sim! O NASA Space Apps acolhe participantes de todas as idades, desde o ensino fundamental até
+                pós-graduação. Menores de 13 anos devem ter a conta supervisionada por um pai, responsável ou professor,
+                conforme as diretrizes do portal da NASA.</p>
             </div>
           </div>
 
@@ -623,7 +708,9 @@
               <span class="faq-chevron">+</span>
             </button>
             <div class="faq-answer">
-              <p>As equipes oficiais da NASA podem ter de <strong>1 a 6 participantes</strong>. Você pode competir sozinho se preferir, mas recomendamos trabalhar em equipe de 3 a 5 membros para dividir as tarefas de pesquisa, desenvolvimento e pitch.</p>
+              <p>As equipes oficiais da NASA podem ter de <strong>1 a 6 participantes</strong>. Você pode competir
+                sozinho se preferir, mas recomendamos trabalhar em equipe de 3 a 5 membros para dividir as tarefas de
+                pesquisa, desenvolvimento e pitch.</p>
             </div>
           </div>
 
@@ -633,7 +720,8 @@
               <span class="faq-chevron">+</span>
             </button>
             <div class="faq-answer">
-              <p>Sim! Todos os participantes registrados em equipes que finalizarem e submeterem seu projeto dentro do prazo oficial do hackathon recebem um certificado digital oficial emitido pela NASA.</p>
+              <p>Sim! Todos os participantes registrados em equipes que finalizarem e submeterem seu projeto dentro do
+                prazo oficial do hackathon recebem um certificado digital oficial emitido pela NASA.</p>
             </div>
           </div>
 
@@ -643,29 +731,43 @@
               <span class="faq-chevron">+</span>
             </button>
             <div class="faq-answer">
-              <p>Para concorrer à avaliação global da NASA, a página do projeto, os slides ou o vídeo pitch de 30s devem ser submetidos em <strong>inglês</strong>. Durante o evento no Brasil, mentores e jurados locais apoiam equipes na tradução e estruturação do pitch.</p>
+              <p>Para concorrer à avaliação global da NASA, a página do projeto, os slides ou o vídeo pitch de 30s devem
+                ser submetidos em <strong>inglês</strong>. Durante o evento no Brasil, mentores e jurados locais apoiam
+                equipes na tradução e estruturação do pitch.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    
+
     <!-- Seção de Mentoria & Apoio Tio Vené -->
     <section class="section-container" id="mentoria" style="padding: 4rem 0;">
       <div class="container">
-        <div style="background: linear-gradient(135deg, rgba(11, 61, 145, 0.4) 0%, rgba(0, 242, 254, 0.15) 100%); border: 1px solid rgba(0, 242, 254, 0.35); border-radius: var(--radius-lg); padding: 3rem 2.5rem; display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap;">
+        <div
+          style="background: linear-gradient(135deg, rgba(11, 61, 145, 0.4) 0%, rgba(0, 242, 254, 0.15) 100%); border: 1px solid rgba(0, 242, 254, 0.35); border-radius: var(--radius-lg); padding: 3rem 2.5rem; display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap;">
           <div style="max-width: 650px;">
-            <span class="badge-frontier" style="margin-bottom: 0.75rem; display: inline-block;">MENTORIA & CAPACITAÇÃO BRASIL <svg class="brazil-flag" width="20" height="14" viewBox="0 0 720 504" style="vertical-align: middle; border-radius: 2px; display: inline-block;"><rect width="720" height="504" fill="#009c3b"/><polygon points="360,37.8 680.4,252 360,466.2 39.6,252" fill="#ffdf00"/><circle cx="360" cy="252" r="126" fill="#002776"/><path d="M 234 252 A 136 136 0 0 0 486 252 A 148 148 0 0 1 234 252" fill="#ffffff"/></svg></span>
-            <h2 style="font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 0.75rem; font-family: var(--font-display);">
+            <span class="badge-frontier" style="margin-bottom: 0.75rem; display: inline-block;">MENTORIA & CAPACITAÇÃO
+              BRASIL <svg class="brazil-flag" width="20" height="14" viewBox="0 0 720 504"
+                style="vertical-align: middle; border-radius: 2px; display: inline-block;">
+                <rect width="720" height="504" fill="#009c3b" />
+                <polygon points="360,37.8 680.4,252 360,466.2 39.6,252" fill="#ffdf00" />
+                <circle cx="360" cy="252" r="126" fill="#002776" />
+                <path d="M 234 252 A 136 136 0 0 0 486 252 A 148 148 0 0 1 234 252" fill="#ffffff" />
+              </svg></span>
+            <h2
+              style="font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 0.75rem; font-family: var(--font-display);">
               Precisa de ajuda para montar sua equipe ou validar seu projeto espacial?
             </h2>
             <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.6;">
-              O <strong>Tio Vené</strong> e o <strong>Clube Amplexo Educação</strong> oferecem orientação técnica, ideação e mentoria gratuita em algoritmos, prototipagem e storytelling para times brasileiros do NASA Space Apps Challenge!
+              O <strong>Tio Vené</strong> oferece serviços de orientação técnica, ideação e mentoria em algoritmos,
+              prototipagem e storytelling para participantes do NASA Space Apps Challenge!
             </p>
           </div>
           <div style="flex-shrink: 0; display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
-            <a href="https://wa.me/5585986794831?text=Ol%C3%A1%20Tio%20Ven%C3%A9!%20Estou%20no%20Hub%20do%20NASA%20Space%20Apps%20e%20gostaria%20de%20mentoria%20para%20minha%20equipe!" target="_blank" rel="noopener" class="btn btn-primary btn-lg" style="background: #25d366; color: #032b12; box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);">
+            <a href="https://wa.me/5585986794831?text=Ol%C3%A1%20Tio%20Ven%C3%A9!%20Estou%20no%20Hub%20do%20NASA%20Space%20Apps%20e%20gostaria%20de%20mentoria%20para%20minha%20equipe!"
+              target="_blank" rel="noopener" class="btn btn-primary btn-lg"
+              style="background: #25d366; color: #032b12; box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);">
               <span>Falar com o Tio Vené no WhatsApp 💬</span>
             </a>
             <span style="font-size: 0.8rem; color: var(--text-muted);">⚡ Resposta rápida e suporte a estudantes</span>
@@ -698,13 +800,18 @@
             </div>
           </div>
           <p class="footer-desc">
-            Portal informativo e comunitário em português para guiar estudantes e entusiastas brasileiros no maior hackathon de ciência e espaço do mundo.
+            Portal informativo e comunitário em português para guiar estudantes e entusiastas brasileiros no maior
+            hackathon de ciência e espaço do mundo.
           </p>
           <div class="footer-socials">
-            <a href="https://www.instagram.com/nasa_spaceapps" target="_blank" rel="noopener noreferrer" aria-label="Instagram Space Apps">Instagram</a>
-            <a href="https://twitter.com/spaceapps" target="_blank" rel="noopener noreferrer" aria-label="Twitter Space Apps">X (Twitter)</a>
-            <a href="https://www.youtube.com/nasaspaceappschallenge" target="_blank" rel="noopener noreferrer" aria-label="YouTube Space Apps">YouTube</a>
-            <a href="https://www.facebook.com/spaceappschallenge" target="_blank" rel="noopener noreferrer" aria-label="Facebook Space Apps">Facebook</a>
+            <a href="https://www.instagram.com/nasa_spaceapps" target="_blank" rel="noopener noreferrer"
+              aria-label="Instagram Space Apps">Instagram</a>
+            <a href="https://twitter.com/spaceapps" target="_blank" rel="noopener noreferrer"
+              aria-label="Twitter Space Apps">X (Twitter)</a>
+            <a href="https://www.youtube.com/nasaspaceappschallenge" target="_blank" rel="noopener noreferrer"
+              aria-label="YouTube Space Apps">YouTube</a>
+            <a href="https://www.facebook.com/spaceappschallenge" target="_blank" rel="noopener noreferrer"
+              aria-label="Facebook Space Apps">Facebook</a>
           </div>
         </div>
 
@@ -723,11 +830,16 @@
         <div class="footer-links-group">
           <h4 class="footer-heading">Links Oficiais NASA</h4>
           <ul class="footer-list">
-            <li><a href="https://www.spaceappschallenge.org/" target="_blank" rel="noopener noreferrer">Portal Space Apps ↗</a></li>
-            <li><a href="https://www.spaceappschallenge.org/2026/" target="_blank" rel="noopener noreferrer">Edição 2026 ↗</a></li>
-            <li><a href="https://www.spaceappschallenge.org/2026/challenges/" target="_blank" rel="noopener noreferrer">Desafios 2026 ↗</a></li>
-            <li><a href="https://www.spaceappschallenge.org/2026/local-events/" target="_blank" rel="noopener noreferrer">Polos Locais ↗</a></li>
-            <li><a href="https://www.spaceappschallenge.org/resources/" target="_blank" rel="noopener noreferrer">Guias & FAQ Oficial ↗</a></li>
+            <li><a href="https://www.spaceappschallenge.org/" target="_blank" rel="noopener noreferrer">Portal Space
+                Apps ↗</a></li>
+            <li><a href="https://www.spaceappschallenge.org/2026/" target="_blank" rel="noopener noreferrer">Edição 2026
+                ↗</a></li>
+            <li><a href="https://www.spaceappschallenge.org/2026/challenges/" target="_blank"
+                rel="noopener noreferrer">Desafios 2026 ↗</a></li>
+            <li><a href="https://www.spaceappschallenge.org/2026/local-events/" target="_blank"
+                rel="noopener noreferrer">Polos Locais ↗</a></li>
+            <li><a href="https://www.spaceappschallenge.org/resources/" target="_blank" rel="noopener noreferrer">Guias
+                & FAQ Oficial ↗</a></li>
           </ul>
         </div>
 
@@ -745,10 +857,13 @@
 
       <div class="footer-bottom">
         <p>
-          NASA Space Apps Challenge é financiado pela Science Mission Directorate da NASA. Este portal é um guia comunitário educacional em língua portuguesa.
+          NASA Space Apps Challenge é financiado pela Science Mission Directorate da NASA. Este portal é um guia
+          comunitário educacional em língua portuguesa.
         </p>
         <p class="copyright">
-          © 2026 Comunidade NASA Space Apps Brasil & Tio Vené • <a href="privacidade.html" style="color: var(--cyan-primary); text-decoration: underline;">Termos & Privacidade (LGPD, COPPA & CCPA)</a> • <a href="LICENSE" style="color: #facc15; text-decoration: underline;">Licença MIT 📄</a>
+          © 2026 Comunidade NASA Space Apps Brasil & Tio Vené • <a href="privacidade.html"
+            style="color: var(--cyan-primary); text-decoration: underline;">Termos & Privacidade (LGPD, COPPA &
+            CCPA)</a> • <a href="LICENSE" style="color: #facc15; text-decoration: underline;">Licença MIT 📄</a>
         </p>
       </div>
     </div>
@@ -757,4 +872,5 @@
   <!-- Scripts -->
   <script src="app.js"></script>
 </body>
+
 </html>
