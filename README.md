@@ -6,7 +6,7 @@
 
 [![NASA Space Apps](https://img.shields.io/badge/NASA-Space_Apps_Challenge_2026-0b3d91?style=for-the-badge&logo=nasa&logoColor=white)](https://www.spaceappschallenge.org/)
 [![Edição 2026](https://img.shields.io/badge/Tema_2026-The_Next_Frontier-ff3b30?style=for-the-badge)](https://www.spaceappschallenge.org/2026/)
-[![Hackathon Gratuito](https://img.shields.io/badge/Inscri%C3%A7%C3%A3o-100%25_Gratuita-00f2fe?style=for-the-badge)](https://www.spaceappschallenge.org/2026/)
+[![Hackathon Gratuito](https://img.shields.io/badge/Inscri%C3%A7%C3%A3o-100%25_Gratuita-22c55e?style=for-the-badge)](https://www.spaceappschallenge.org/2026/)
 [![Brasil](https://img.shields.io/badge/Eventos_Locais-Brasil_%F0%9F%87%A7%F0%9F%87%B7-22c55e?style=for-the-badge)](https://www.spaceappschallenge.org/2026/local-events/)
 [![License: MIT](https://img.shields.io/badge/Licen%C3%A7a-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![WhatsApp Mentoria](https://img.shields.io/badge/Mentoria-Tio_Ven%C3%A9-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5585986794831)
