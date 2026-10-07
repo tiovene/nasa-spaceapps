@@ -684,7 +684,7 @@ function initEvents() {
       <article class="event-card">
         <div class="event-card-header">
           <div>
-            <h3 class="event-city">${ev.city} <span class="event-uf">(${ev.uf})</span></h3>
+            <h3 class="event-city">${ev.city} <span class="event-uf">${ev.uf === 'BR' ? '<svg class="brazil-flag" width="18" height="13" viewBox="0 0 720 504" style="vertical-align: middle; border-radius: 2px; display: inline-block;"><rect width="720" height="504" fill="#009c3b"/><polygon points="360,37.8 680.4,252 360,466.2 39.6,252" fill="#ffdf00"/><circle cx="360" cy="252" r="126" fill="#002776"/><path d="M 234 252 A 136 136 0 0 0 486 252 A 148 148 0 0 1 234 252" fill="#ffffff"/></svg>' : '(' + ev.uf + ')'}</span></h3>
             <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 500;">Região ${ev.region}</span>
           </div>
           <span class="event-modality-badge ${ev.modalityClass}">${ev.modality}</span>

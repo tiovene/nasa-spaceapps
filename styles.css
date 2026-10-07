@@ -1721,3 +1721,99 @@ body {
     gap: 2rem;
   }
 }
+
+/* ==========================================================================
+   Bandeira do Brasil em SVG & Avisos de Fonte Oficial
+   ========================================================================== */
+.brazil-flag {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  margin: 0 4px;
+}
+
+/* Banner de Aviso no Topo */
+.official-disclaimer-banner {
+  background: rgba(11, 61, 145, 0.35);
+  border-bottom: 1px solid rgba(0, 242, 254, 0.25);
+  backdrop-filter: blur(12px);
+  padding: 0.6rem 0;
+  position: relative;
+  z-index: 101;
+  font-size: 0.85rem;
+}
+
+.disclaimer-banner-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.disclaimer-badge {
+  background: rgba(0, 242, 254, 0.15);
+  border: 1px solid var(--cyan-primary);
+  color: var(--cyan-primary);
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.05em;
+}
+
+.disclaimer-text {
+  color: #cbd5e1;
+  line-height: 1.4;
+}
+
+.disclaimer-text a {
+  color: var(--cyan-primary);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.disclaimer-text a:hover {
+  color: #fff;
+}
+
+/* Card de Disclaimer no Rodapé */
+.footer-disclaimer-card {
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(0, 242, 254, 0.2);
+  border-radius: var(--radius-md);
+  padding: 1.5rem 1.75rem;
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin: 2.5rem 0 1.5rem 0;
+  backdrop-filter: blur(12px);
+}
+
+.disclaimer-card-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.disclaimer-card-title {
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.disclaimer-card-content p {
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.disclaimer-card-content a {
+  color: var(--cyan-primary);
+  text-decoration: underline;
+}
